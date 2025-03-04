@@ -29,9 +29,11 @@
   padding-bottom: 2rem !important;
 }
 
+
+
 .display-2 {
-  font-size: 4rem;
-  color: #304c7b !important;
+  font-size: 3rem;
+  color:#2f4f86 !important;
 }
 
 
@@ -62,7 +64,8 @@
   font-weight: bold;
 }
 
-.container .row {
+
+.container .row-card {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -76,5 +79,45 @@
 
 .fa-2x {
   color:#fff;
+}
+
+.about-img-inner{
+  width: 30%;
+  margin-left: 3rem;
+}
+
+.text-secondary span {
+  font-weight: bold;
+  color: #2f4f86;
+}
+
+.text-secondary p{
+  color: #0a0908 !important;
+}
+
+.section-title p {
+  color: #0a0908;
+}
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap:3rem;
+}
+
+.container-fluid .footer-item p{
+  color: #99d347;
+  margin-top: 1rem;
+}
+
+.footer-item h4{
+  color: #8dc63f;
+}
+
+.fa i {
+  color: #8dc63f;
+}
+
+.row-container h5 {
+  color: #2f4f86;
 }
 

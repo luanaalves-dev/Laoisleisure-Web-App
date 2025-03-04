@@ -606,7 +606,7 @@
 }
 
 .feature .feature-item:hover .feature-content h5 {
-    color: var(--bs-dark);
+    color: ##8dc63f;
 }
 /*** Feature End ***/
 
