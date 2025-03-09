@@ -1,0 +1,48 @@
+/*** Spinner Start ***/
+/*** Spinner ***/
+/* #spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+} */
+/*** Spinner End ***/
+
+/* .container .subscribe {
+    width: 70%;
+    border: 1px solid #304c7b;
+    border-radius: 2rem;
+  }
+   */
+ 
+   .sidebar {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 170px;
+  }
+  
+  .sidebar-sticky {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    padding-left: 30px;
+    z-index: 99999;
+    height: 100%;
+    width: 14%;
+    border-right: 2px solid #eee;
+  }
+  
