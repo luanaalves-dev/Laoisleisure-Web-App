@@ -27,9 +27,14 @@
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: #99d347;
 }
+
+.display-3 h2{
+  font-size: 1rem;
+}
+
 
 .btn-light{
   color: #304c7b;

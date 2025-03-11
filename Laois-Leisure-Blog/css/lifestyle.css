@@ -1,80 +1,55 @@
-/*** Spinner Start ***/
-/*** Spinner ***/
-/* #spinner {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s ease-out, visibility 0s linear .5s;
-  z-index: 99999;
+
+
+.container .col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-#spinner.show {
-  transition: opacity .5s ease-out, visibility 0s linear 0s;
-  visibility: visible;
-  opacity: 1;
-} */
-/*** Spinner End ***/
+.container .sidebar {
+  position: relative;
+  overflow: hidden;
+  top: 25rem;
+  width: 80%;
+  height: 100%;
+  border-bottom: none !important;
+}
 
-/* .container .subscribe {
-    width: 70%;
-    border: 1px solid #304c7b;
-    border-radius: 2rem;
+.container .sidebar-sticky {
+  position: fixed;
+  left: 0px;
+  top: 25rem;
+  background-color: #fff;
+  padding-left: 30px;
+  z-index: 99999;
+  height: 100%;
+  width: 14%;
+}
+
+@media (max-width: 992px) {
+  .container .sidebar {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 250px;
+    height: auto;
+    overflow-y: auto;
   }
-   */
-
-   .container .col {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-   }
- 
-   /* .container .sidebar {
-    position: relative;
-    top: 50px;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-  } */
-  
-   .container  .sidebar {
-    position: absolute;
-    top: 26rem;
-    background-color: #fff;
-    padding-left: 15px;
-    z-index: 99999;
-    height: auto; 
-    min-height: 100vh;
-    width: 14%;
-    border-right: 2px solid #eee;
-  } 
-
-  @media (max-width: 992px) {
-    .container .sidebar-right {
-        position: fixed; /* Fixa a sidebar na tela */
-        top: 70px; /* Ajuste para evitar sobreposição do menu */
-        right: 0;
-        width: 250px; /* Sidebar maior para facilitar navegação */
-        height: auto;
-       
-        border-bottom: 2px solid #eee;
-        overflow-y: auto; /* Permite rolagem se o conteúdo for grande */
-    }
 }
 
 /*  Responsividade para Celulares e Telas Pequenas */
-  @media (max-width: 768px) {
-    .container .sidebar-right {
-        position: relative; /* Sidebar volta a ser um bloco normal */
-        width: 100%; /* Ocupa toda a largura */
-        height: auto;
-        top: 0;
-        border-bottom: none;
-       
-    }
+@media (max-width: 768px) {
+  .container .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    border-bottom: none;
+  }
 }
-  
-.sidebar h4{
+
+.sidebar h4 {
   color: #304c7b;
   margin-bottom: 1rem;
 }
@@ -87,6 +62,14 @@
   margin-top: 2rem;
 }
 
-.related-posts-block{
-  padding: 4rem 0;
+.related-posts-block {
+  padding: 3rem 0;
+}
+
+.single-post p {
+  line-height: 26px;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  color: #0e0d0d;
+  font-weight: 400;
 }
