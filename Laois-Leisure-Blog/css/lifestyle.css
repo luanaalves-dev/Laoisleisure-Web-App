@@ -1,5 +1,3 @@
-
-
 .container .col {
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +7,7 @@
 .container .sidebar {
   position: relative;
   overflow: hidden;
-  top: 25rem;
+  top: 24rem;
   left: 2rem;
   width: 80%;
   height: 100%;
@@ -19,7 +17,7 @@
 .container .sidebar-sticky {
   position: fixed;
   left: 0px;
-  top: 25rem;
+  top: 26rem;
   background-color: #fff;
   padding-left: 30px;
   z-index: 99999;
@@ -78,7 +76,6 @@
   list-style-type: none;
   margin-left: 0px;
   padding-left: 10px;
-  color:#8dc63f;
+  color: #8dc63f;
   font-weight: bold;
 }
-
