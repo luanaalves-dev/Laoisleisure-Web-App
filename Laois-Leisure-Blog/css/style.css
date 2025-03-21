@@ -183,7 +183,6 @@
     color: var(--bs-secondary) !important;
 }
 
-
 @media (max-width: 576px) {
     .topbar {
         display: none;    
