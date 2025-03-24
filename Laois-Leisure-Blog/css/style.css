@@ -34,7 +34,7 @@
     transition: .5s;
 }
 
-.btn-square {
+/* .btn-square {
     width: 32px;
     height: 32px;
 }
@@ -64,7 +64,7 @@
     justify-content: center;
     font-weight: normal;
     border-radius: 50%;
-}
+} */
 
 .btn.btn-primary {
     box-shadow: inset 0 0 0 0 var(--bs-primary);
@@ -72,12 +72,12 @@
 
 .btn.btn-primary:hover {
     box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    /* color: var(--bs-primary) !important; */
 }
 
-.btn.btn-light {
+/* .btn.btn-light {
     box-shadow: inset 0 0 0 0 var(--bs-primary);
-}
+} */
 
 .btn.btn-light:hover {
     box-shadow: inset 300px 0 0 0 var(--bs-primary);
@@ -89,7 +89,7 @@
 }
 
 .btn-hover:hover {
-    color: var(--bs-secondary);
+    /* color: var(--bs-secondary); */
 }
 
 /*** Section Title Start ***/
@@ -628,14 +628,14 @@
 
 .appointment .appointment-form .btn.btn-primary:hover {
     box-shadow: inset 600px 0 0 0 var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    /* color: var(--bs-primary) !important; */
 }
 
 /*** Appointment End ***/
 
 
 /*** Team Start ***/
-.team .team-item .team-img {
+/* .team .team-item .team-img {
     position: relative;
     overflow: hidden;
 }
@@ -650,8 +650,8 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     transition: 0.5s;
-}
-
+} */
+/* 
 .team .team-item .team-img .team-icon {
     position: absolute;
     bottom: -125px;
@@ -686,10 +686,10 @@
     background: var(--bs-primary);
     color: var(--bs-white);
 }
-/*** Team End ***/
+** Team End ** */
 
-
-/*** testimonial Start ***/
+/* 
+/*** testimonial Start 
 .testimonial {
     background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
     background-position: center center;
@@ -757,10 +757,10 @@
 .testimonial .testimonial-carousel .owl-nav .owl-next:hover {
     box-shadow: inset 100px 0 0 0 var(--bs-primary) !important;
     color: var(--bs-white) !important;
-}
+} */
 
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     .testimonial .testimonial-carousel .owl-nav .owl-prev {
         margin-top: -190px;
         margin-left: 40px;
@@ -829,7 +829,7 @@
     .testimonial .testimonial-carousel .testimonial-item .testimonial-inner p.fs-7 {
         font-size: 20px;
     }
-}
+} */
 
 
 
@@ -903,7 +903,7 @@
 
 
 
-/* Testimonial Section Title Start */
+/* Contact Start */
 .contact .section-title {
     max-width: 900px;
     text-align: center;

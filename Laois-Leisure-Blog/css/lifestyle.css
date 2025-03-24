@@ -4,10 +4,10 @@
   justify-content: space-between;
 }
 
-.container .sidebar {
+ .sidebar .sidebar-wrap{
   position: relative;
   overflow: hidden;
-  top: 24rem;
+  top: 22.5rem;
   width: 80%;
   height: 100%;
   padding: 0 1rem 0.5rem;
@@ -17,23 +17,22 @@
 .container .sidebar-sticky {
   position: fixed;
   left: 0px;
-  top: 26rem;
+  /* top: 26rem; */
   background-color: #fff;
   padding-left: 30px;
   z-index: 99999;
-  height: 100%;
-  width: 14%;
+  /* height: 100%;
+  width: 14%; */
 }
 
-@media (max-width: 992px) {
-  .container .sidebar {
-    position: fixed;
-    top: 70px;
-    right: 0;
-    width: 250px;
-    height: auto;
-    overflow-y: auto;
+@media (max-device-width:1200px) {
+    .sidebar .sidebar-wrap {
+    position: relative;
+    overflow: hidden;
+    top: 24rem;
+   
   }
+  
 }
 
 /* Responsiveness for Mobile Phones and Small Screens */
