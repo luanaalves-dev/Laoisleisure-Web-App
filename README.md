@@ -12,7 +12,7 @@
 
 ✅ **HTML5** – Structured and semantic markup
 
-✅ ** SCSS, CSS3 & Bootstrap – Responsive design and clean, scalable layout styling across devices.
+✅ SCSS, CSS3 & Bootstrap – Responsive design and clean, scalable layout styling across devices.
 
 ✅ **JavaScript (ES6+)** – Enhancing user interactions
 
