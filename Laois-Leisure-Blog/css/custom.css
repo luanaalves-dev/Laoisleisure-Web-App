@@ -53,6 +53,12 @@
   color:#2f4f86 !important;
 }
 
+@media (max-width: 480px) {
+  .display-2 {
+    font-size: 1.2rem;
+  }
+}
+
 
 .mb-0 span{
   font-weight:500;
@@ -136,6 +142,10 @@
 
 .row-container h5 {
   color: #2f4f86;
+}
+
+.section-title h4{
+  color: #8dc63f;
 }
 
 /* Blog pages */
