@@ -998,14 +998,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.row-contact {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
 .footer-item a {
-    line-height: 35px;
+    line-height: 30px;
     color: #fff;
     transition: 0.5s;
 }
 
 .footer .footer-item p {
-    line-height: 35px;
+    line-height: 30px;
+    color: #fff;
 }
 
 .footer .footer-item a:hover {
