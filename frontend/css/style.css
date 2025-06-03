@@ -498,6 +498,7 @@
 .service .service-item .service-content {
     position: relative;
     z-index: 2;
+    margin-bottom: 2rem;
 
 }
 
