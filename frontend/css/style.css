@@ -136,6 +136,9 @@
     display: inline-block;
     text-transform: uppercase;
     color: var(--bs-primary);
+    font-size: clamp(2rem, 1.5vw, 1.3rem);
+    letter-spacing: 1px;
+    padding: 0.5rem ;
 }
 
 .sub-title::before {
