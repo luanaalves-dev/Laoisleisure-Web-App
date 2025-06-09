@@ -2,7 +2,7 @@
 <h1 align="left">Laois Leisure Web App</h1>
 
 <p>
-  A modern and engaging blog platform designed for Laois Leisure Center, a premier Leisure Center focused on health, fitness, and well-being. This platform delivers high-quality content in a clean, 
+  A modern and engaging website platform designed for Laois Leisure Center, a premier Leisure Center focused on health, fitness, and well-being. This platform delivers high-quality content in a clean, 
   responsive, and user-friendly interface.
 </p>
 
