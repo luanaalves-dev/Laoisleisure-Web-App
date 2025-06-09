@@ -56,9 +56,6 @@
     transition: 0.5s;
 }
 
-.btn-hover:hover {
-    /* color: var(--bs-secondary); */
-}
 
 /*** Section Title Start ***/
 .section-title {
